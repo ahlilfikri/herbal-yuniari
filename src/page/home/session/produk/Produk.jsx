@@ -11,13 +11,13 @@ const Produk = () => {
                         <h1>PRODUK UNGGULAN KAMI</h1>
                         <div className="card-wrapper">
                             <div className="card">
-                                <img src="/produk1.png" alt=""/>
+                                <img src="produk1.png" alt=""/>
                                 <div className="card-title">
                                     <h1>Wedang Uwuh</h1>
                                 </div>
                             </div>
                             <div className="card">
-                                <img src="/produk2.png" alt=""/>
+                                <img src="produk2.png" alt=""/>
                                 <div className="card-title">
                                     <h1>Jahe Merah Premium</h1>
                                 </div>
@@ -28,13 +28,13 @@ const Produk = () => {
                         <h1>PRODUK TERLARIS BULAN INI</h1>
                         <div className="card-wrapper">
                             <div className="card">
-                                <img src="/produk3.png" alt=""/>
+                                <img src="produk3.png" alt=""/>
                                 <div className="card-title">
                                     <h1>Wedang Uwuh</h1>
                                 </div>
                             </div>
                             <div className="card">
-                                <img src="/produk4.png" alt=""/>
+                                <img src="produk4.png" alt=""/>
                                 <div className="card-title">
                                     <h1>Telang Siap Minum</h1>
                                 </div>
