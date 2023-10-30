@@ -6,7 +6,7 @@ const Beranda = () => {
     return (
         <Fragment>
             <div className="beranda-container">
-                <NavBar></NavBar>
+                <NavBar />
                 <div className="header">
                     <div className="header-text">
                         <p>selamat datang di</p>
@@ -18,7 +18,7 @@ const Beranda = () => {
                     </div>
                 </div>
                 <div className="image-background">
-                    <img src="/Top.png" alt="" />
+                    <img src="Top.png" alt="" />
                 </div>
             </div>
             

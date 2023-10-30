@@ -46,7 +46,7 @@ const Produk = () => {
                     <h1>PRODUK BUNDLING MINGGU INI</h1>
                         <div className="card-wrapper">
                                 <div className="card">
-                                    <img src="/bundling.png" alt=""/>
+                                    <img src="bundling.png" alt=""/>
                                     <div className="card-body">
                                         <h1 className="card-title">Bundling Penurun Berat Badan</h1>
                                         <ul className="card-text">
@@ -57,7 +57,7 @@ const Produk = () => {
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="/bundling.png" alt=""/>
+                                    <img src="bundling.png" alt=""/>
                                     <div className="card-body">
                                         <h1 className="card-title">Bundling Perawatan Kulit</h1>
                                         <ul className="card-text">
@@ -68,7 +68,7 @@ const Produk = () => {
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="/bundling.png" alt=""/>
+                                    <img src="bundling.png" alt=""/>
                                     <div className="card-body">
                                         <h1 className="card-title">Bundling Peningkat Imun Tubuh</h1>
                                         <ul className="card-text">
@@ -79,7 +79,7 @@ const Produk = () => {
                                     </div>
                                 </div>
                                 <div className="card">
-                                    <img src="/bundling.png" alt=""/>
+                                    <img src="bundling.png" alt=""/>
                                     <div className="card-body">
                                         <h1 className="card-title">Bundling Perawatan Asam Urat</h1>
                                         <ul className="card-text">
