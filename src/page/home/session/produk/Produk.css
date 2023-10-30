@@ -48,7 +48,7 @@
 }
 
 .produk-container .bottom-container{
-    background-color: #00A34B;
+    background: linear-gradient(180deg, rgba(0, 163, 75, 0.88) 0%, rgba(0, 103, 47, 0.77) 100%);
     height: max-content;
     width: 80vw;
     margin: 0 0 0 10vw;
@@ -67,7 +67,7 @@
     float:left;
     width: 80vw;
     display:block;
-    background-color: #00A34B !important;
+    background: linear-gradient(180deg, rgba(0, 163, 75, 0.88) 0%, rgba(0, 103, 47, 0.77) 100%);
     margin : 0 0 5.2vw 0;
     padding-bottom: 3.64vw;
     border-bottom-right-radius: 1.56vw;
@@ -92,7 +92,6 @@
 
 .produk-container .bottom-container .card-wrapper .card .card-body{
     width: 16vw;
-    /* background-color: red; */
 }
 
 .produk-container .bottom-container .card-wrapper .card h1{

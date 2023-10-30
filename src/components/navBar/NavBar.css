@@ -73,7 +73,7 @@
     
     .navBar-container.menu-open .nav-links ul {
         display: flex;
-        animation: slideMenuReverse 3s;
+        /* animation: slideMenuReverse 3s; */
     }
 
     .navBar-container .menu-button {
@@ -117,18 +117,9 @@
 
 @keyframes slideMenu {
     from {
-        transform: translate(100%);
+        transform: translate(-100%);
     }
     to {
         transform: translate(0%);
-    }
-}
-
-@keyframes slideMenuReverse {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(0%);
     }
 }

@@ -100,7 +100,7 @@
 }
 
 .tentangKami-container .partner-container{
-    background-color: #00A34B;
+    background: linear-gradient(180deg, rgba(0, 163, 75, 0.88) 0%, rgba(0, 103, 47, 0.77) 100%);
     padding: 1vw 0 2.5vw 0;
 }
 
