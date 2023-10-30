@@ -14,7 +14,6 @@
 }
 
 .beranda-container .header{
-    z-index: 10;
     position : absolute;
     text-align: center;
     left: 50%;
@@ -39,6 +38,15 @@
     border-radius: 0.5vw;
     margin: 4.86vw 6.94vw;
     font-size: 1.4vw;
+    cursor: pointer;
+    color: white;
+    transition: background-color 1s, color 0.3s, transform 0.3s;
+}
+
+.beranda-container .header-button .tentangKami:hover {
+    background-color: white; 
+    color: #008F42;
+    transition: background-color 1s, color 0.3s;
 }
 
 .beranda-container .header-button .produkUnggulan{
@@ -48,4 +56,24 @@
     border-radius: 0.5vw;
     margin: 4.86vw 6.94vw;
     font-size: 1.4vw;
+    cursor: pointer;
+    transition: background-color 1s, color 0.3s, transform 0.3s;
+}
+
+.beranda-container .header-button .produkUnggulan:hover {
+    background-color: #008F42; 
+    color: #fff;
+    transition: background-color 1s, color 0.3s;
+}
+
+@media (max-width: 1000px) {
+    .beranda-container .header{
+        top: 5  0%;
+    }
+}
+
+@media (max-width: 600px) {
+    .beranda-container .header{
+        top: 45%;
+    }
 }

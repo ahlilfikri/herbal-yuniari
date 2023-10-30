@@ -12,6 +12,7 @@
     text-align: center;
     margin: 0px 0 1.3vw 0;
     padding: 5.21vw 0 0 0;
+    color: #008F42;
 }
 
 .tentangKami-container .mid-container {
@@ -74,10 +75,15 @@
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px #888888;
     color: #008F42;
+    transition: transform 0.5s;
+}
+
+.tentangKami-container .bottom-container .card-wrapper .card:hover{
+    transform: scale(1.2);
 }
 
 .tentangKami-container .bottom-container .card-wrapper .card img{
-    width:12vw !important;
+    width:12vw ;
     position: relative;
     left: 50%;
     top: 10%;
@@ -115,6 +121,11 @@
     height : 6.77vw;
     border-radius: 1vw;
     display: flex;
+    transition: transform 0.5s;
+}
+
+.tentangKami-container .partner-container .card-wrapper .card:hover{
+    transform: scale(1.2);
 }
 
 .tentangKami-container .partner-container .card-wrapper .card img{
@@ -127,4 +138,69 @@
     width:16vw;
     margin:2vw 0 0 1vw;
     text-align: left;
+}
+
+@media (max-width: 1000px) {
+    .tentangKami-container {
+        margin: -7vw 0 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .tentangKami-container {
+        margin: -15vw 0 0 0;
+    }
+
+    .tentangKami-container .top-container,.tentangKami-container .mid-container{
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .tentangKami-container .top-container img, .tentangKami-container .mid-container .left-contain,.tentangKami-container .top-container p, .tentangKami-container .mid-container .right-contain{
+        width: 70vw;
+        margin: 2vw auto;
+        font-size: 2.5vw;
+        text-align: justify;
+    }
+
+    .tentangKami-container .top-container img{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .tentangKami-container .mid-container h1{
+        font-size: 2.5vw;
+    }
+    
+    .tentangKami-container .mid-container .right-contain ol{
+        margin: 0 0 0 1vw;
+    }
+
+    .tentangKami-container .bottom-container .card-wrapper {
+        display:block;
+    }
+
+    .tentangKami-container .bottom-container .card-wrapper .card{
+        width: 40vw;
+        min-height : 45vw;
+        margin: 5vw auto;
+        box-shadow: 0px 0px 5px 0px #888888;
+    }
+
+    .tentangKami-container .bottom-container .card-wrapper .card img{
+        width:35vw;
+        max-height: 30vw;
+        min-height: 30vw;
+    }
+    
+    .tentangKami-container .bottom-container .card-wrapper .card h1{
+        text-align: center;
+        font-size: 2.5vw;
+        width:35vw;
+    }
+
+    .tentangKami-container .bottom-container .card-wrapper .card:hover{
+        transform: scale(1.05);
+    }
 }

@@ -23,26 +23,27 @@ const Footer = () => {
                         <div className="nama">
                             <div className="nama-depan-class">
                                 <p>Nama Depan</p>
-                                <input type="" name="" id="" className="nama-depan"/>
+                                <input type="" name="" id="" className="nama-depan"  placeholder="Masukan Nama Depan"/>
                             </div>
                             <div className="nama-belakang-class">
                                 <p>Nama Belakang</p>
-                                <input type="" name="" id="" className="nama-belakang" />
+                                <input type="" name="" id="" className="nama-belakang" placeholder="Masukan Nama Belakang" />
                             </div>
                         </div>
                         <div className="email-class">
                             <p>Alamat Email</p>
-                            <input type="text" name="" id="" className="email"/>
+                            <input type="text" name="" id="" className="email" placeholder="Masukkan Alamat Email"/>
                         </div>
                         <div className="subject-class">
                             <p>Subject</p>
-                            <input type="text" name="" id="" className="subject" />
+                            <input type="text" name="" id="" className="subject" placeholder="Masukkan subject"/>
                         </div>
                         <div className="pesan-class">
                             <p>Pesan</p>
-                            <input type="text" name="" id="" className="pesan"/>
+                            <input type="text" name="" id="" className="pesan" placeholder="Masukkan pesan"/>
                         </div>
                     </div>
+                    <button >Send Messages </button>
                 </div>
             </div>
         </Fragment>

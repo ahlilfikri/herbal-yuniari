@@ -18,7 +18,9 @@ const Home = () => {
                 <section id='produk'>
                     <Produk />
                 </section>
-                <Footer />
+                <section id="hubungiKami">
+                    <Footer />
+                </section>
             </div>
         </Fragment>
     )
