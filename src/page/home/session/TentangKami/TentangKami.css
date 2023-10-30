@@ -1,0 +1,130 @@
+.tentangKami-container {
+    max-width: 100vw !important;
+    border-top-right-radius: 2.6vw;
+    border-top-left-radius: 2.6vw;
+    position: relative;
+    margin: -5.21vw 0 0 0;
+    background-color: #F4FFFB;
+    overflow: hidden;
+}
+
+.tentangKami-container .title{
+    text-align: center;
+    margin: 0px 0 1.3vw 0;
+    padding: 5.21vw 0 0 0;
+}
+
+.tentangKami-container .mid-container {
+    margin:2.6vw 0 0;
+}
+
+.tentangKami-container .top-container,.tentangKami-container .mid-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tentangKami-container .top-container img, .tentangKami-container .mid-container .left-contain{
+    width: 40vw;
+    margin: 0 0 0 8vw;
+    font-size: 1.25vw;
+    text-align: justify;
+}
+
+.tentangKami-container .mid-container h1{
+    text-align: left;
+    background-color: #008F42;
+    width: fit-content;
+    margin: 0 0 1.55vw 0;
+    color: #F4FFFB;
+    padding: 0.5vw 1vw;
+    font-size: 1.66vw;
+    border-radius: 0.5vw;
+}
+
+.tentangKami-container .top-container p, .tentangKami-container .mid-container .right-contain{
+    width: 40vw;
+    font-size: 1.25vw;
+    text-align: justify;
+    margin: 0 8vw 0 0;
+}
+
+.tentangKami-container .mid-container .right-contain ol{
+    margin: 0 0 0 1vw;
+}
+
+.tentangKami-container .bottom-container {
+    margin:2.6vw 0 3.6vw 0;
+}
+
+.tentangKami-container .bottom-container .title-bottom {
+    text-align: center;
+    color: #008F42;
+    margin: 0 0 1vw 0;
+}
+
+.tentangKami-container .bottom-container .card-wrapper {
+    display:flex;
+    justify-content: space-around;
+}
+
+.tentangKami-container .bottom-container .card-wrapper .card{
+    background-color: white;
+    width: 14.33vw;
+    min-height : 16.15vw;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px #888888;
+    color: #008F42;
+}
+
+.tentangKami-container .bottom-container .card-wrapper .card img{
+    width:12vw !important;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    max-height: 7.9vw;
+}
+
+.tentangKami-container .bottom-container .card-wrapper .card h1{
+    text-align: center;
+    font-size: 0.83vw;
+    width:10.1vw;
+    margin:3vw auto 0 auto;
+    padding: 0 0 2vw 0;
+}
+
+.tentangKami-container .partner-container{
+    background-color: #00A34B;
+    padding: 1vw 0 2.5vw 0;
+}
+
+.tentangKami-container .partner-container .title-partner{
+    color: white;
+    font-size:1.66vw;
+    padding: 0 0 1.56vw 2.6vw;
+}
+
+.tentangKami-container .partner-container .card-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tentangKami-container .partner-container .card-wrapper .card{
+    background-color: white;
+    width: 24.75vw;
+    height : 6.77vw;
+    border-radius: 1vw;
+    display: flex;
+}
+
+.tentangKami-container .partner-container .card-wrapper .card img{
+    margin:  1vw 0 0 1vw;
+    max-height: 5vw;
+}
+
+.tentangKami-container .partner-container .card-wrapper .card h1{
+    font-size: 0.83vw;
+    width:16vw;
+    margin:2vw 0 0 1vw;
+    text-align: left;
+}

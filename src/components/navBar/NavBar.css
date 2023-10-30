@@ -1,0 +1,29 @@
+.navBar-container {
+    position: absolute;
+    max-width: 100vw;
+    min-width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.47vw;
+}
+
+.navBar-container .logo{
+    margin: 0 0 0 10.4vw;
+}
+
+.navBar-container .logo img{
+    width: 2vw !important;
+}
+
+.navBar-container .nav-links ul{
+    display: flex;
+    list-style: none;
+    margin: 0 13.89vw 0 0;
+}
+
+.navBar-container .nav-links ul li{
+    margin: 0.5vw 1.4vw;
+    color: white;
+    cursor: pointer;
+    font-size: 0.6vw;
+}
