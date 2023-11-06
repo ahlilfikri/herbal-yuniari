@@ -8,7 +8,7 @@ import './TentangKami.css';
 
 const TentangKami = () => {
     const [data, setData] = useState({});
-    const apiTentangKami = 'http://localhost:2700/tentangKami'; // Use http://localhost
+    const apiTentangKami = 'http://localhost:3000/tentangKami'; // Use http://localhost
     const getTentangKami = () => {
         axios.get(apiTentangKami)
         .then(response => {
@@ -28,19 +28,19 @@ const TentangKami = () => {
                 <h1 className="title">TENTANG KAMI</h1>
                 <div className="top-container">
                     <img src="struktur.png" alt="" />
-                    {/* <p>{data.tentang}</p> */}
+                    <p>{data.tentang}</p>
                 </div>
                 <div className="mid-container">
                     <div className="left-contain">
                         <h1>VISI</h1>
-                        {/* <p>{data.visi}</p> */}
+                        <p>{data.visi}</p>
                     </div>
                     <div className="right-contain">
                         <h1>MISI</h1>
                         <ol>
-                        {/* {Array.isArray(data.misi) && data.misi.map((item, index) => (
+                        {Array.isArray(data.misi) && data.misi.map((item, index) => (
                                 <li id={item.id}>{item}</li>
-                            ))} */}
+                            ))}
                         </ol>
                     </div>
                 </div>

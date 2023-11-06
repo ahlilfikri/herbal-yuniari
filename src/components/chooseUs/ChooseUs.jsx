@@ -4,7 +4,7 @@ import './ChooseUs.css'
 
 const ChooseUs = () => {
     const [data, setData] = useState([]);
-    const api = 'http://localhost:2700/chooseUs'; // Use http://localhost
+    const api = 'http://localhost:3000/chooseUs'; // Use http://localhost
     const getAPI = () => {
         axios.get(api)
             .then(response => {

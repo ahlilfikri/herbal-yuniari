@@ -4,7 +4,7 @@ import '../../page/home/session/produk/Produk'
 
 const produkBundling = () => {
     const [data, setData] = useState([]);
-    const api = 'http://localhost:2700/produkBundling'; // Use http://localhost
+    const api = 'http://localhost:3000/produkBundling'; // Use http://localhost
     const getAPI = () => {
         axios.get(api)
             .then(response => {
@@ -23,7 +23,7 @@ const produkBundling = () => {
         <Fragment>
             <h1>PRODUK BUNDLING MINGGU INI</h1>
             <div className="card-wrapper">
-                {/* {data.map((item, index) => (
+                {data.map((item, index) => (
                     <div className="card" key={index}>
                         <img src={item.image} alt=""/>
                         <div className="card-body">
@@ -36,7 +36,7 @@ const produkBundling = () => {
                             <button>Hubungi Admin</button>
                         </div>
                     </div>
-                ))} */}
+                ))}
             </div>
         </Fragment>
     )
