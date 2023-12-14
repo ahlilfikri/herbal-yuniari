@@ -14,7 +14,6 @@ const Footer = () => {
                             <li>Instagram</li>
                             <li>Facebook</li>
                             <li>Shopee</li>
-                            <li>Shopee</li>
                         </ul>
                     </div>
                 </div>
