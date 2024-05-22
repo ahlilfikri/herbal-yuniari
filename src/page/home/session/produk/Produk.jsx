@@ -16,6 +16,7 @@ const Produk = () => {
                 <div className="bottom-container">
                     <ProdukBundling />
                 </div>
+                <button className="produk-lainnya">Lihat produk lainnya</button>
             </div>
 
         </Fragment>
